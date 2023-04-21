@@ -58,12 +58,13 @@ class CarListResources(Resource):
         db.session.add(new_car)
         db.session.commit()
         return car_schema.dump(new_car)
-    
+        
 
 class CarResource(Resource):
     def get(self,car_id):
         print(car_id)
         pass
+        
 
 
 # Routes

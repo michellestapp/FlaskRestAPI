@@ -19,7 +19,8 @@
                 "--reload"
             ],
             "jinja": true,
-            "justMyCode": true
+            "justMyCode": true,
+            "pythonArgs":["-Xfrozen_modules-off"]
         }
     ]
 }
